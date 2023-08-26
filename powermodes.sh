@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the available power profiles
-profiles=("power-saver" "balanced" "performance")
+profiles=("Power-saver" "Balanced" "Performance")
 
 # Prompt the user to select a power profile
 selected_profile=$(printf '%s\n' "${profiles[@]}" | wofi --conf=$HOME/.config/wofi/config.power --style=$HOME/.config/wofi/style.widgets.css)
@@ -9,7 +9,7 @@ selected_profile=$(printf '%s\n' "${profiles[@]}" | wofi --conf=$HOME/.config/wo
 # Set the selected power profile
 case $selected_profile in
     "Power-saver")
-        powerprofilesctl set powersaver
+        powerprofilesctl set power-saver
         ;;
     "Balanced")
         powerprofilesctl set balanced

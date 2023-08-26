@@ -16,4 +16,4 @@ giornali = [
 
 if os.path.exists(/home/enrico/Documents/Newspapers) = False:
         os.makedirs(home/enrico/Documents/Newspaper)
-for i in os.
+
