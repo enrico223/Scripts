@@ -1,0 +1,138 @@
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Cleaned old hyprpaper preloads (12), removing 295.4MB
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/abstract_sky.jpg in 757.08ms -> Pixel size: [4608, 2963]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg in 691.31ms -> Pixel size: [5635, 3875]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/cherry _flowers.jpg in 469.13ms -> Pixel size: [4470, 3024]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/coast_mountain.jpg in 568.28ms -> Pixel size: [5472, 3648]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/dock.jpg in 133.96ms -> Pixel size: [3840, 2160]
+[CRITICAL] unrecognized image /home/enrico/Pictures/Wallpapers/don_quischotte_windmill_files
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/abstract_sky.jpg in 677.28ms -> Pixel size: [4608, 2963]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg in 694.22ms -> Pixel size: [5635, 3875]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/cherry _flowers.jpg in 459.34ms -> Pixel size: [4470, 3024]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/coast_mountain.jpg in 542.80ms -> Pixel size: [5472, 3648]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/dock.jpg in 112.33ms -> Pixel size: [3840, 2160]
+[CRITICAL] unrecognized image /home/enrico/Pictures/Wallpapers/don_quischotte_windmill_files
+[LOG] Welcome to hyprpaper!
+built from commit  ()
+[LOG] Cleaned old hyprpaper preloads (46), removing 1695.7MB
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/abstract_sky.jpg in 731.87ms -> Pixel size: [4608, 2963]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg in 615.15ms -> Pixel size: [5635, 3875]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/cherry _flowers.jpg in 409.58ms -> Pixel size: [4470, 3024]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/coast_mountain.jpg in 384.78ms -> Pixel size: [5472, 3648]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/dock.jpg in 123.43ms -> Pixel size: [3840, 2160]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/don_quishotte.png in 643.57ms -> Pixel size: [3840, 2160]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/fenicotteri.jpeg in 45.81ms -> Pixel size: [2560, 1440]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/io_e_lei.jpg in 122.09ms -> Pixel size: [4263, 3752]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/iris.jpg in 303.92ms -> Pixel size: [5120, 2880]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/lake_mountain_mirror.jpg in 1229.16ms -> Pixel size: [6000, 4000]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/materia_wallpaper.jpg in 76.87ms -> Pixel size: [1920, 1080]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/midnight-train-tracks.jpg in 28.81ms -> Pixel size: [1920, 1080]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/modigliani_wallpaper.jpeg in 2.25ms -> Pixel size: [474, 296]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/monument_valley1.JPG in 45.10ms -> Pixel size: [2049, 1536]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/mountain_4k.jpg in 2782.54ms -> Pixel size: [12404, 5393]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/nord_linux.jpg in 352.10ms -> Pixel size: [4096, 2304]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/red_green_parrot.jpg in 196.79ms -> Pixel size: [2880, 1800]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/space-wallpaper.jpg in 97.87ms -> Pixel size: [1920, 1080]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/steampunk_city.jpeg in 86.62ms -> Pixel size: [2184, 1248]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/Street_wide_monitor.jpeg in 157.56ms -> Pixel size: [3840, 1080]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/wave_hokusai.jpeg in 78.03ms -> Pixel size: [2559, 1439]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/wide_monitor_star2.jpeg in 63.93ms -> Pixel size: [2560, 1080]
+[LOG] Preloaded target /home/enrico/Pictures/Wallpapers/wide_monitor_star.jpeg in 62.82ms -> Pixel size: [2560, 1080]
+[LOG] hyprpaper socket started at /tmp/hypr/9654749244117f7f150c6f2a2ce4dede6e8cbb25_1693202765/.hyprpaper.sock (fd: 4)
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wide_monitor_star.jpeg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wide_monitor_star2.jpeg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/Street_wide_monitor.jpeg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/nord_linux.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/space-wallpaper.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/monument_valley1.JPG, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/mountain_4k.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/abstract_sky.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/cherry _flowers.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/coast_mountain.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/modigliani_wallpaper.jpeg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/dock.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/io_e_lei.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/steampunk_city.jpeg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/don_quishotte.png, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wave_hokusai.jpeg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/materia_wallpaper.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/fenicotteri.jpeg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/iris.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/lake_mountain_mirror.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/red_green_parrot.jpg, Shared Memory usage: 59.0MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/midnight-train-tracks.jpg, Shared Memory usage: 59.0MB
+[LOG] Total SM usage for all buffers: 1356.6MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wide_monitor_star.jpeg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wide_monitor_star2.jpeg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/Street_wide_monitor.jpeg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/nord_linux.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/space-wallpaper.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/monument_valley1.JPG, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/mountain_4k.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/abstract_sky.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/cherry _flowers.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/coast_mountain.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/modigliani_wallpaper.jpeg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/dock.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/io_e_lei.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/steampunk_city.jpeg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/don_quishotte.png, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wave_hokusai.jpeg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/materia_wallpaper.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/fenicotteri.jpeg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/iris.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/lake_mountain_mirror.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/red_green_parrot.jpg, Shared Memory usage: 14.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/midnight-train-tracks.jpg, Shared Memory usage: 14.7MB
+[LOG] Total SM usage for all buffers: 1695.7MB
+[LOG] configure for DP-2
+[LOG] handlePreferredScale: 1.25 for 555964c32760
+[LOG] Image data for DP-2: /home/enrico/Pictures/Wallpapers/lake_mountain_mirror.jpg at [0.00, -312.50], scale: 0.43 (original image size: [6000, 4000])
+[LOG] Submitting viewport dest size 2048x1152 for 64c32760
+[LOG] handlePreferredScale: 1.25 for 555964c32760
+[LOG] configure for DP-2
+[LOG] handlePreferredScale: 1.25 for 555964c32760
+[LOG] handlePreferredScale: 1.25 for 555964c32760
+[LOG] Image data for DP-2: /home/enrico/Pictures/Wallpapers/lake_mountain_mirror.jpg at [0.00, -312.50], scale: 0.43 (original image size: [6000, 4000])
+[LOG] Submitting viewport dest size 2048x1152 for 64c32760
+[LOG] handlePreferredScale: 1.25 for 555964c32760
+[LOG] Accepted incoming socket connection request on fd 5
+[LOG] Received a request: wallpaper DP-2,/home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wide_monitor_star.jpeg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wide_monitor_star2.jpeg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/Street_wide_monitor.jpeg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/nord_linux.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/space-wallpaper.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/monument_valley1.JPG, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/mountain_4k.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/abstract_sky.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/cherry _flowers.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/coast_mountain.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/modigliani_wallpaper.jpeg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/dock.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/io_e_lei.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/steampunk_city.jpeg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/don_quishotte.png, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/wave_hokusai.jpeg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/materia_wallpaper.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/fenicotteri.jpeg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/iris.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/lake_mountain_mirror.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/red_green_parrot.jpg, Shared Memory usage: 37.7MB
+[LOG] Buffer created for target /home/enrico/Pictures/Wallpapers/midnight-train-tracks.jpg, Shared Memory usage: 37.7MB
+[LOG] Total SM usage for all buffers: 2564.0MB
+[LOG] configure for DP-2
+[LOG] configure for DP-2
+[LOG] handlePreferredScale: 1.25 for 7f43e8010a40
+[LOG] Image data for DP-2: /home/enrico/Pictures/Wallpapers/arindam-saha-PwzISwC2kLs-unsplash.jpg at [0.00, -352.66], scale: 0.45 (original image size: [5635, 3875])
+[LOG] Submitting viewport dest size 2048x1152 for e8010a40
+[LOG] handlePreferredScale: 1.25 for 7f43e8010a40
+[LOG] configure for DP-2
+[LOG] handlePreferredScale: 1.25 for 7f43e8010a40
+[LOG] handlePreferredScale: 1.25 for 7f4
