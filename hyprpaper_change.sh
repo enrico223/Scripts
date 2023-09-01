@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Config
-monitor="DP-2"
+monitor="DP-1"
+monitor2="DP-2"
+laptop="eDP-1"
 wallpaper_dir="$HOME/Pictures/Wallpapers"
 time_stamp_file="$HOME/.last_hyprpaper_run"
 
@@ -13,7 +15,16 @@ function hyprpaper_set() {
     file_random=("${file_listing[RANDOM % ${#file_listing[@]}]}")
 
     # Set wallpaper with hyprctl
-    hyprctl hyprpaper wallpaper "$monitor,$file_random"
+	if [[ $(hyprctl monitors | awk -F"[()]" '$2 && $2 ~ /-/ {print $2}') == $monitor ]]; then
+		hyprctl hyprpaper wallpaper "$monitor,$file_random"
+	elif [[ $(hyprctl monitors | awk -F"[()]" '$2 && $2 ~ /-/ {print $2}') == $monitor2 ]]; then
+		hyprctl hyprpaper wallpaper "$monitor2,$file_random"
+	elif [[ $(hyprctl monitors | awk -F"[()]" '$2 && $2 ~ /-/ {print $2}') == $laptop ]]; then
+		hyprctl hyprpaper wallpaper "$laptop,$file_random"
+	else
+		notify-send "Something wrong happened"
+		exit 1
+	fi
 }
 
 # Check if the script was run less than a second ago
