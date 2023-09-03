@@ -27,6 +27,15 @@ function hyprpaper_set() {
 	fi
 }
 
+function swaybg_set {
+    file_random=("${file_listing[RANDOM % ${#file_listing[@]}]}")
+	if pgrep swaybg; then
+		pkill -9 swaybg
+		swaybg --image $file_random
+	else 
+		swaybg --image $file_random
+	fi
+}
 # Check if the script was run less than a second ago
 if [ -f "$time_stamp_file" ]; then
     last_run=$(cat "$time_stamp_file")
@@ -43,4 +52,11 @@ fi
 date +%s > "$time_stamp_file"
 
 # Call the function
-hyprpaper_set
+if [ $DESKTOP_SESSION == hyprland ]; then
+	hyprpaper_set
+elif [ $DESKTOP_SESSION == sway ]; then
+	swaybg_set
+else 
+	notify-send "Now a compatible desktop"
+	exit 1
+fi

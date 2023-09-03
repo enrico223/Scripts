@@ -1394,4 +1394,21 @@ built from commit  ()
 [LOG] handlePreferredScale: 1.25 for 7f43e8010cc0
 [LOG] configure for DP-2
 [LOG] Image data for DP-2: /home/enrico/Pictures/Wallpapers/steampunk_city.jpeg at [0.00, -9.75], scale: 1.17 (original image size: [2184, 1248])
-[LOG] Submitti
+[LOG] Submitti2023-09-03 12:11:03 - [swaybg-1.2.0/main.c:293] Found config * for output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+2023-09-03 12:21:46 - [swaybg-1.2.0/main.c:397] Destroying output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+2023-09-03 12:21:47 - [swaybg-1.2.0/main.c:293] Found config * for output eDP-1 (Chimei Innolux Corporation 0x1376)
+2023-09-03 13:46:55 - [swaybg-1.2.0/main.c:293] Found config * for output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+2023-09-03 13:46:55 - [swaybg-1.2.0/main.c:237] Destroying output eDP-1 (Chimei Innolux Corporation 0x1376)
+2023-09-03 13:46:57 - [swaybg-1.2.0/main.c:397] Destroying output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+2023-09-03 13:46:57 - [swaybg-1.2.0/main.c:293] Found config * for output eDP-1 (Chimei Innolux Corporation 0x1376)
+2023-09-03 13:47:00 - [swaybg-1.2.0/main.c:293] Found config * for output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+2023-09-03 13:47:01 - [swaybg-1.2.0/main.c:237] Destroying output eDP-1 (Chimei Innolux Corporation 0x1376)
+Terminated
+2023-09-03 13:56:20 - [swaybg-1.2.0/main.c:293] Found config * for output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+2023-09-03 14:46:02 - [swaybg-1.2.0/main.c:397] Destroying output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+2023-09-03 14:46:02 - [swaybg-1.2.0/main.c:293] Found config * for output eDP-1 (Chimei Innolux Corporation 0x1376)
+2023-09-03 14:59:12 - [swaybg-1.2.0/main.c:237] Destroying output eDP-1 (Chimei Innolux Corporation 0x1376)
+2023-09-03 14:59:15 - [swaybg-1.2.0/main.c:397] Destroying output (null) ((null))
+2023-09-03 14:59:16 - [swaybg-1.2.0/main.c:397] Destroying output (null) ((null))
+2023-09-03 14:59:16 - [swaybg-1.2.0/main.c:293] Found config * for output DP-1 (ASUSTek COMPUTER INC VG27A L8LMQS192021)
+./hyprpaper_change.sh: line 30: 182534 Killed                  swaybg --image $file_random
