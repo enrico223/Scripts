@@ -32,6 +32,9 @@ function swaybg_set {
 	if pgrep swaybg; then
 		pkill -9 swaybg
 		swaybg --image $file_random
+		if [ $file_random -eq "io_e_lei.jpg"]; then
+				swaybg --image $file_random --mode center
+		fi
 	else 
 		swaybg --image $file_random
 	fi

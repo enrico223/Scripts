@@ -1,7 +1,9 @@
 #!/bin/sh 
-song=$(playerctl metadata --format "Title: {{title }}\n Artist: {{ artist }}\n Album {{ album }}")
+song=$(playerctl metadata --format "Title: {{title }}\nArtist: {{ artist }}\nAlbum: {{ album }}")
 if [[ $(playerctl -l) =~ ^spotifyd* ]]; then
-	notify-send -t 3000 "Spotify" "$song"
+	notify-send -t 3000 "Music" "$song"
 elif [[ $(playerctl -l) =~ ^mpd* ]]; then
-	notify-send -t 3000 "MPD" "$song"
+	notify-send -t 3000 "Music" "$song"
+elif [[ $(playerctl -l) =~ ^rhythmbox* ]]; then
+	notify-send -t 3000 "Music" "$song"
 fi
