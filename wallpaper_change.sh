@@ -3,6 +3,7 @@
 # Config
 monitor="DP-1"
 monitor2="DP-2"
+hdmi="HDMI-A-1"
 laptop="eDP-1"
 wallpaper_dir="$HOME/Pictures/Wallpapers"
 time_stamp_file="$HOME/.last_hyprpaper_run"
@@ -13,6 +14,7 @@ file_listing=($wallpaper_dir/*)
 function hyprpaper_set() {
     # Get one random file path
     file_random=("${file_listing[RANDOM % ${#file_listing[@]}]}")
+	hyprctl hyprpaer wallpaper "HDMI-A-1, /home/enrico/Pictures/Wallpapers/cherry.webp"
 
     # Set wallpaper with hyprctl
 	if [[ $(hyprctl monitors | awk -F"[()]" '$2 && $2 ~ /-/ {print $2}') == $monitor ]]; then
@@ -21,6 +23,8 @@ function hyprpaper_set() {
 		hyprctl hyprpaper wallpaper "$monitor2,$file_random"
 	elif [[ $(hyprctl monitors | awk -F"[()]" '$2 && $2 ~ /-/ {print $2}') == $laptop ]]; then
 		hyprctl hyprpaper wallpaper "$laptop,$file_random"
+	elif [[ $(hyprctl monitors | awk -F"[()]" '$2 && $2 ~ /-/ {print $2}') == $hdmi ]]; then
+		hyprctl hyprpaper wallpaper "$hdmi,$file_random"
 	else
 		notify-send "Something wrong happened"
 		exit 1
