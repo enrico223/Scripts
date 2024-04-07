@@ -18,13 +18,13 @@ function hyprpaper_set() {
 	#hyprctl hyprpaer wallpaper "HDMI-A-1, /home/enrico/Pictures/Wallpapers/cherry.webp"
 
     # Set wallpaper with hyprctl
-	if [[ $(hyprctl monitors | awk '/Monitor/ {print $2')]" '$2 && $2 ~ /-/ {print $2}') == $monitor ]]; then
+	if [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $monitor ]]; then
 		hyprctl hyprpaper wallpaper "$monitor,$file_random"
-	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2')]" '$2 && $2 ~ /-/ {print $2}') == $monitor2 ]]; then
+	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $monitor2 ]]; then
 		hyprctl hyprpaper wallpaper "$monitor2,$file_random"
-	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2')]" '$2 && $2 ~ /-/ {print $2}') == $laptop ]]; then
+	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $laptop ]]; then
 		hyprctl hyprpaper wallpaper "$laptop,$file_random"
-	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2')]" '$2 && $2 ~ /-/ {print $2}') == $hdmi ]]; then
+	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $hdmi ]]; then
 		hyprctl hyprpaper wallpaper "$hdmi,$file_random"
 	else
 		notify-send "Something wrong happened"
