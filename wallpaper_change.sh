@@ -70,9 +70,9 @@ fi
 # Save the current timestamp
 date +%s > "$time_stamp_file"
 # Call the function
-if [ $DESKTOP_SESSION == hyprland ]; then
+if [ $DESKTOP_SESSION == Hyprland ]; then
 	hyprpaper_set
-elif [ $DESKTOP_SESSION == sway ]; then
+elif [ $DESKTOP_SESSION == Sway ]; then
 	swaybg_set
 else 
 	notify-send "Now a compatible desktop"
