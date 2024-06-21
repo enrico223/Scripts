@@ -8,7 +8,7 @@ DEFAULT_SIGNAL = $MOUNT_POINT/Internal\ Shared\ Storage/Signal_backup
 
 checks() {
 	#Check for the mount point
-	if [ -f /mnt/android ]; then
+	if [ -d /mnt/android ]; then
 		echo "Nice, you have the correct mount point"
 	else
 		mkdir /mnt/android
