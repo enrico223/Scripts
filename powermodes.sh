@@ -9,13 +9,13 @@ selected_profile=$(printf '%s\n' "${profiles[@]}" | wofi --conf=$HOME/.config/wo
 # Set the selected power profile
 case $selected_profile in
     "Power-saver")
-        powerprofilesctl set power-saver
+        tunded-adm profile powersave
         ;;
     "Balanced")
-        powerprofilesctl set balanced
+        tunded-adm profile balanced-battery
         ;;
     "Performance")
-        powerprofilesctl set performance
+        tunded-adm profile throughput-performance
         ;;
 esac
 

@@ -8,24 +8,29 @@ laptop="eDP-1"
 wallpaper_dir="$HOME/Pictures/Wallpapers"
 time_stamp_file="$HOME/.last_hyprpaper_run"
 hyprpaper_conf="$HOME/.config/hypr/hyprpaper.conf"
+CURRENT_WALL=$(hyprctl hyprpaper listloaded)
 
 # Get list of wallpaper file paths
 file_listing=($wallpaper_dir/*)
 
-function hyprpaper_set() {
+function hyprpaper_set_main() {
     # Get one random file path
     file_random=("${file_listing[RANDOM % ${#file_listing[@]}]}")
-	#hyprctl hyprpaer wallpaper "HDMI-A-1, /home/enrico/Pictures/Wallpapers/cherry.webp"
+	hyprpaper reload "$laptop, /home/enrico/Pictures/Wallpapers/cherry.webp"
+}
 
+function hyprpaper_set_secondary() {
     # Set wallpaper with hyprctl
+    file_random=("${file_listing[RANDOM % ${#file_listing[@]}]}")
+	sleep 2
 	if [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $monitor ]]; then
-		hyprctl hyprpaper wallpaper "$monitor,$file_random"
+		hyprctl hyprpaper reload "$monitor,$file_random"
 	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $monitor2 ]]; then
-		hyprctl hyprpaper wallpaper "$monitor2,$file_random"
+		hyprctl hyprpaper reload "$monitor2,$file_random"
 	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $laptop ]]; then
-		hyprctl hyprpaper wallpaper "$laptop,$file_random"
+		hyprctl hyprpaper reload "$laptop,$file_random"
 	elif [[ $(hyprctl monitors | awk '/Monitor/ {print $2}') == $hdmi ]]; then
-		hyprctl hyprpaper wallpaper "$hdmi,$file_random"
+		hyprctl hyprpaper reload "$hdmi,$file_random"
 	else
 		notify-send "Something wrong happened"
 		exit 1
@@ -70,11 +75,14 @@ fi
 # Save the current timestamp
 date +%s > "$time_stamp_file"
 # Call the function
-if [ $DESKTOP_SESSION == Hyprland ]; then
-	hyprpaper_set
-elif [ $DESKTOP_SESSION == Sway ]; then
+if [ $DESKTOP_SESSION == hyprland ]; then
+	hyprpaper_set_secondary
+elif [ $DESKTOP_SESSION == sway ]; then
 	swaybg_set
+elif [ $DESKTOP_SESSION == plasma ]; then
+	file_random=("${file_listing[RANDOM % ${#file_listing[@]}]}")
+	plasma-apply-wallpaperimage $file_random
 else 
-	notify-send "Now a compatible desktop"
+	notify-send "Not a compatible desktop"
 	exit 1
 fi
